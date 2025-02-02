@@ -1,0 +1,50 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh ;
+    margin: 0;
+    background-color:#e8adce;
+    font-family:"";
+    flex-direction: column; 
+}
+
+.container{
+    text-align: center;
+}
+
+h1{ 
+    font-size: 1cm ;
+    color: #e83855 ;
+
+}
+.buttons{ 
+    margin-top: 30px;
+
+}
+.Yes{
+    font-size:0.75cm;
+    padding: 5px 10px;
+    background-color: rgb(59, 214, 54);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.No{
+    font-size:0.75cm;
+    padding: 5px 15px;
+    background-color: rgb(194, 43, 43);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
